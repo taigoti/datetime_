@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav {
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: brown;
+        transition: .3 ease;
+    }
+
+    a:hover {
+        color: #e4a700;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
